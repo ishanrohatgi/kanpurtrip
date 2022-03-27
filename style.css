@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-image: url('images/mainBackground.jpg');
+    background-attachment: fixed;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+
+   
+    
+}
+#statred{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+   font-family: 'Pacifico', cursive;
+    color: white;
+    -webkit-text-stroke: 0.05px black;
+    font-size: 1.3em;
+}
+.headingText{
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.containerChild:hover{
+    border: 2px solid white;
+    transition: ease-in-out 1s;
+    /* height: 220px;
+    width: 220px; */
+    background-color: rgba(110, 228, 31, 0.219);
+
+}
+.containerChild{
+    height: 220px;
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 50% ;
+    margin-top:10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin:4px 0px 4px 0px;
+}
+img:hover{
+    height: 155px;
+    width: 155px;
+    transition: ease-in-out 1s;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.videoChild{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.322);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+.videoChild:hover{
+    border: 2px solid white;
+    transition: ease-in-out 1s;
+    background-color: rgba(110, 228, 31, 0.219);
+  
+}
+.videoChild>video:hover{
+    filter: none;
+}
+.videoChild>video{
+    width:  325px;
+    height: 325px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.322);
+    object-fit: cover;
+    filter: grayscale(100%);
+}
