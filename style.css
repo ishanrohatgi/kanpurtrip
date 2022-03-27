@@ -97,3 +97,9 @@ img{
     object-fit: cover;
     filter: grayscale(100%);
 }
+
+@media screen and (max-width:400px) {
+    .headingText{
+        text-align: center;
+    }
+}
