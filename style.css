@@ -98,8 +98,20 @@ img{
     filter: grayscale(100%);
 }
 
+.kpr{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+.kpr> .img{
+    height: 220px;
+    width: 220px;
+    border-radius: 30%;
+}
 @media screen and (max-width:400px) {
     .headingText{
         text-align: center;
+        margin-left: 0px;
     }
 }
